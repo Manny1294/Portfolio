@@ -1,0 +1,43 @@
+<script setup>
+import { BContainer, BRow, BCol, BButton } from 'bootstrap-vue-next'
+</script>
+
+<template>
+  <section class="home__section">
+    <BContainer>
+      <BRow>
+        <!-- text -->
+        <BCol md="6">
+          <h1>Hi, I'm Emmanuel Odili</h1>
+          <h3>Full-Stack Software Engineer</h3>
+          <p>I build responsive and modern web applications with Vue, Node.js, and MongoDB.</p>
+
+          <BButton variant="primary">Hire Me</BButton>
+        </BCol>
+
+        <!-- Image (Right) -->
+        <BCol md="6" class="text-center">
+          <BImg
+            src="https://via.placeholder.com/400x400"
+            fluid
+            alt="My Portfolio Picture"
+            class="profile-img"
+          />
+        </BCol>
+      </BRow>
+    </BContainer>
+  </section>
+</template>
+
+<style lang="scss" scoped>
+section {
+  section {
+    min-height: 100vh;
+    padding-top: 80px; /* adjust to your navbar’s height */
+    color: white;
+  }
+}
+p {
+  color: brown;
+}
+</style>
