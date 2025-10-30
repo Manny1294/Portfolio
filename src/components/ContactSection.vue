@@ -20,7 +20,11 @@ import { faXTwitter, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg
 
             <p class="contact__subtitle">
               You could also
-              <a href="/public/Emmanuel_odili_osezua.pdf" download class="contact__resume-link">
+              <a
+                href="/Emmanuel_Odili_Osezua_Software_Engineering_CV.pdf"
+                download
+                class="contact__resume-link"
+              >
                 read my resume </a
               >, or find me on these platforms:
             </p>

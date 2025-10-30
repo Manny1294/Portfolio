@@ -20,7 +20,11 @@ import { faXTwitter, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg
 
             <p class="contact__subtitle">
               You could also
-              <a href="/public/Emmanuel_odili_osezua.pdf" download class="contact__resume-link">
+              <a
+                href="/Emmanuel_Odili_Osezua_Software_Engineering_CV.pdf"
+                download
+                class="contact__resume-link"
+              >
                 read my resume </a
               >, or find me on these platforms:
             </p>
@@ -34,7 +38,11 @@ import { faXTwitter, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg
             <a href="https://github.com/Manny1294" target="_blank" aria-label="GitHub">
               <FontAwesomeIcon :icon="faGithub" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+            <a
+              href="https://www.linkedin.com/in/emmanuel-odili-5576431b1"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
               <FontAwesomeIcon :icon="faLinkedinIn" />
             </a>
           </div>
@@ -48,7 +56,8 @@ import { faXTwitter, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg
 .contact {
   background: #081b29;
   color: white;
-  padding: 80px 0;
+  padding: 60px 0;
+  padding-top: 100px;
 
   &__content {
     display: flex;
