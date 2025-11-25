@@ -7,11 +7,11 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 // Example project data
 const projects = [
   {
-    title: 'zuree',
-    desc: 'Affordable, expertly built websites with full management from e-commerce to real estate, we make professional web presence effortless.',
-    image: '/zuree.png',
+    title: 'vizitly',
+    desc: 'A flexible, customizable visitor management platform designed to streamline guest check-ins and enhance security.',
+    image: '/vizitly.png',
     github: null,
-    live: 'https://zuree.io/',
+    live: 'https://www.vizitly.io/',
   },
   {
     title: 'vizitly',

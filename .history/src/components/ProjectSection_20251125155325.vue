@@ -8,8 +8,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 const projects = [
   {
     title: 'zuree',
-    desc: 'Affordable, expertly built websites with full management from e-commerce to real estate, we make professional web presence effortless.',
-    image: '/zuree.png',
+    desc: 'Affordable, expertly built websites with full management—from e-commerce to portfolios, we make professional web presence effortless.',
+    image: '/vizitly.png',
     github: null,
     live: 'https://zuree.io/',
   },
