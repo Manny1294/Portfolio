@@ -1,11 +1,18 @@
 <script setup>
-import { BContainer, BRow, BCol, BCard, BCardText } from 'bootstrap-vue-next'
+import { BContainer, BRow, BCol, BCard } from 'bootstrap-vue-next'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 // Example project data
 const projects = [
+  {
+    title: 'vizitly',
+    desc: 'A flexible, customizable visitor management platform designed to streamline guest check-ins and enhance security.',
+    image: '/furniro.png',
+    github: null,
+    live: 'https://furniro-oi61.onrender.com/',
+  },
   {
     title: 'Furniro',
     desc: 'Fullstack online store with checkout, authentication, and admin dashboard.',
@@ -18,14 +25,14 @@ const projects = [
     desc: 'A productivity app that helps users organize tasks, mark progress, and stay on track with a fullstack architecture.',
     image: '/todo.png',
     github: 'https://github.com/yourname/todo-app',
-    live: 'https://yourtodoappdemo.com',
+    live: 'https://magnificent-taffy-f46b6c.netlify.app',
   },
   {
-    title: 'Chat Application',
-    desc: 'Real-time chat app using Node.js, Socket.IO, and MongoDB.',
-    image: '/projects/chatapp.png',
-    github: 'https://github.com/yourname/chatapp',
-    live: 'https://chatapp-demo.com',
+    title: 'First Project (Early HTML/CSS Portfolio)',
+    desc: 'My very first portfolio built with plain HTML and CSS — a simple project that marked the beginning of my web development journey.',
+    image: 'portfolio.png',
+    github: 'https://github.com/Manny1294/manny.portfolio',
+    live: null,
   },
 ]
 </script>
@@ -42,14 +49,19 @@ const projects = [
             <!-- Content -->
             <div class="p-3">
               <h5 class="project__card-title">{{ project.title }}</h5>
-              <BCardText class="project__card-desc">
+              <p class="project__card-desc">
                 {{ project.desc }}
-              </BCardText>
+              </p>
               <div class="d-flex justify-content-center gap-3 mt-3">
-                <a :href="project.github" target="_blank" class="project__link">
+                <a
+                  v-if="project.github"
+                  :href="project.github"
+                  target="_blank"
+                  class="project__link"
+                >
                   <FontAwesomeIcon :icon="faGithub" /> Code
                 </a>
-                <a :href="project.live" target="_blank" class="project__link">
+                <a v-if="project.live" :href="project.live" target="_blank" class="project__link">
                   <FontAwesomeIcon :icon="faExternalLinkAlt" /> Live
                 </a>
               </div>
@@ -66,6 +78,7 @@ const projects = [
   background: #081b29;
   color: white;
   padding: 60px 0;
+  padding-top: 100px;
 
   &__title {
     font-size: 32px;

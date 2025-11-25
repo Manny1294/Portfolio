@@ -7,6 +7,13 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 // Example project data
 const projects = [
   {
+    title: 'vizitly',
+    desc: 'A flexible, customizable visitor management platform designed to streamline guest check-ins and enhance security.',
+    image: '/vizitly.png',
+    github: null,
+    live: 'https://www.vizitly.io/',
+  },
+  {
     title: 'Furniro',
     desc: 'Fullstack online store with checkout, authentication, and admin dashboard.',
     image: '/furniro.png',
@@ -22,10 +29,10 @@ const projects = [
   },
   {
     title: 'First Project (Early HTML/CSS Portfolio)',
-    desc: 'Real-time chat app using Node.js, Socket.IO, and MongoDB.',
-    image: '/projects/chatapp.png',
-    github: 'https://github.com/yourname/chatapp',
-    live: 'https://chatapp-demo.com',
+    desc: 'My very first portfolio built with plain HTML and CSS — a simple project that marked the beginning of my web development journey.',
+    image: 'portfolio.png',
+    github: 'https://github.com/Manny1294/manny.portfolio',
+    live: null,
   },
 ]
 </script>
@@ -71,6 +78,7 @@ const projects = [
   background: #081b29;
   color: white;
   padding: 60px 0;
+  padding-top: 100px;
 
   &__title {
     font-size: 32px;

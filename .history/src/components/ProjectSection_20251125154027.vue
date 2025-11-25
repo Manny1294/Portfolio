@@ -14,6 +14,13 @@ const projects = [
     live: 'https://furniro-oi61.onrender.com/',
   },
   {
+    title: 'Furniro',
+    desc: 'Fullstack online store with checkout, authentication, and admin dashboard.',
+    image: '/furniro.png',
+    github: 'https://github.com/MannyLighthaus/ecommerce-frontend',
+    live: 'https://furniro-oi61.onrender.com/',
+  },
+  {
     title: 'Taskify',
     desc: 'A productivity app that helps users organize tasks, mark progress, and stay on track with a fullstack architecture.',
     image: '/todo.png',
@@ -24,7 +31,7 @@ const projects = [
     title: 'First Project (Early HTML/CSS Portfolio)',
     desc: 'My very first portfolio built with plain HTML and CSS — a simple project that marked the beginning of my web development journey.',
     image: 'portfolio.png',
-    github: 'https://github.com/yourname/chatapp',
+    github: 'https://github.com/Manny1294/manny.portfolio',
     live: null,
   },
 ]
@@ -71,6 +78,7 @@ const projects = [
   background: #081b29;
   color: white;
   padding: 60px 0;
+  padding-top: 100px;
 
   &__title {
     font-size: 32px;

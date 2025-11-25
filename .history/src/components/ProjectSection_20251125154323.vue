@@ -7,25 +7,32 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 // Example project data
 const projects = [
   {
+    title: 'vizitly',
+    desc: 'A flexible, customizable visitor management platform designed to streamline guest check-ins and enhance security.',
+    image: '/furniro.png',
+    github: null,
+    live: 'https://www.vizitly.io/',
+  },
+  {
     title: 'Furniro',
     desc: 'Fullstack online store with checkout, authentication, and admin dashboard.',
-    image: '/hero.jpg',
+    image: '/furniro.png',
     github: 'https://github.com/MannyLighthaus/ecommerce-frontend',
     live: 'https://furniro-oi61.onrender.com/',
   },
   {
     title: 'Taskify',
     desc: 'A productivity app that helps users organize tasks, mark progress, and stay on track with a fullstack architecture.',
-    image: '/todo-app.png',
+    image: '/todo.png',
     github: 'https://github.com/yourname/todo-app',
-    live: 'https://yourtodoappdemo.com',
+    live: 'https://magnificent-taffy-f46b6c.netlify.app',
   },
   {
-    title: 'Chat Application',
-    desc: 'Real-time chat app using Node.js, Socket.IO, and MongoDB.',
-    image: '/projects/chatapp.png',
-    github: 'https://github.com/yourname/chatapp',
-    live: 'https://chatapp-demo.com',
+    title: 'First Project (Early HTML/CSS Portfolio)',
+    desc: 'My very first portfolio built with plain HTML and CSS — a simple project that marked the beginning of my web development journey.',
+    image: 'portfolio.png',
+    github: 'https://github.com/Manny1294/manny.portfolio',
+    live: null,
   },
 ]
 </script>
@@ -71,6 +78,7 @@ const projects = [
   background: #081b29;
   color: white;
   padding: 60px 0;
+  padding-top: 100px;
 
   &__title {
     font-size: 32px;

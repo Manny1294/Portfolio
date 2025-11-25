@@ -7,6 +7,13 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 // Example project data
 const projects = [
   {
+    title: 'vizitly',
+    desc: 'A flexible, customizable visitor management platform designed to streamline guest check-ins and enhance security.',
+    image: '/vizitly.png',
+    github: null,
+    live: 'https://www.vizitly.io/',
+  },
+  {
     title: 'Furniro',
     desc: 'Fullstack online store with checkout, authentication, and admin dashboard.',
     image: '/furniro.png',
